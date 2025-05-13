@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Googleカレンダーで開く</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 2em;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 1em;
+      padding: 1em 2em;
+      background-color: #4285F4;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.1em;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Googleカレンダーで開く</h1>
+  <p>この予定をGoogleカレンダーアプリで開くには、以下のボタンをタップしてください。</p>
+
+  <!-- ✅ Android用 intentリンク（アプリがあれば開く） -->
+  <a class="button" href="intent://calendar.google.com/calendar/event?eid=Y19mYTdmNmE3ZWE3YjA1ZTFiZmU1NzYyMjk0MmUwZTg4M2FhMGI2MzM0MzNhYTc5NWM1ZTg1YmRjMzQwODIyMTlkQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20#Intent;scheme=https;package=com.google.android.calendar;end">
+    Googleカレンダーアプリで開く（Android）
+  </a>
+
+  <p style="margin-top: 2em;">📱 iPhoneの方へ：</p>
+  <p>リンクを長押しして「Googleカレンダーで開く」または「別のアプリで開く」を選んでください。</p>
+
+  <p style="margin-top: 3em;">
+    または直接こちらから開けます：<br>
+    <a href="https://calendar.google.com/calendar/event?eid=Y19mYTdmNmE3ZWE3YjA1ZTFiZmU1NzYyMjk0MmUwZTg4M2FhMGI2MzM0MzNhYTc5NWM1ZTg1YmRjMzQwODIyMTlkQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20E">
+      https://calendar.google.com/calendar/event?eid=Y19mYTdmNmE3ZWE3YjA1ZTFiZmU1NzYyMjk0MmUwZTg4M2FhMGI2MzM0MzNhYTc5NWM1ZTg1YmRjMzQwODIyMTlkQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20
+    </a>
+  </p>
+</body>
+</html>
